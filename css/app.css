@@ -38,7 +38,7 @@ body{
     height: 700px;
 }
 .container{
-    padding: 25px 50px;
+    padding: 50px 50px 0px 50px;
 }
 input {
     font-size: 15px;
@@ -67,7 +67,9 @@ button{
 #footnote{
     color: white;
     margin-top: 20px;
-    margin: 0 auto;
-    justify-content: center;
-  
+    padding-left: 120px;
+}
+a{
+    text-emphasis: none;
+    text-decoration: none;
 }
