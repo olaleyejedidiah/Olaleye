@@ -1,0 +1,76 @@
+
+body{
+    background-color: #112D48;
+    font-family: 'Open Sans', sans-serif ;
+}
+
+/* Logo  */
+.logo {
+    padding-bottom: 10px;
+    display: flex;
+    align-items:center;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+.logo img{
+    height: 30px;
+    width: 30px;
+}
+.logo h3{
+    color:white;
+    font-weight: 900;
+    font-size:x-large;
+    margin-left: 10px;
+}
+
+/* logindetails */
+ .Signupform{
+    height: 100%;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.Signupdetails{
+    background-color:#fff;
+    border-radius: 3px;
+    height: 640px;
+}
+
+.container{
+    padding: 50px 50px 0px 50px;
+}
+label {
+    font-weight: normal;
+}
+input {
+    font-size: 15px;
+    padding: 12px 9px;
+    border: 1px solid gray;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    background: transparent;
+    border-radius: 2px;
+    width: 95%;
+}
+
+button{
+    font-size: 15px;
+    color: white;
+    padding:17px 0px;
+    border: none;
+    background: #88D098;
+    border-radius: 2px;
+    width: 100%;
+    cursor: pointer;
+}
+#note{
+    text-align:left;
+    color: gray;
+}
+
+ #note a{
+    text-emphasis: none;
+    text-decoration: none;
+    color: rgb(118, 182, 255);
+}
