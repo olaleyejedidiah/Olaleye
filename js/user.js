@@ -6,8 +6,7 @@ fetch(url)
   let users = data;
   return users.map(user => {
     let li = document.createElement('li'),
-        img =
-        document.createElement('img'),
+        img = document.createElement('img'),
         span = document.createElement('span'),
         h4 = document.createElement('h4');
     img.src = 'https://imgplaceholder.com/100x100/cccccc/757575/glyphicon-user';
