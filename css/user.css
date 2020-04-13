@@ -26,7 +26,6 @@ body{
   }
 
   span, h4{
-    border: 1px solid orange;
     color: white;
     float: right;
     width: 400px;
